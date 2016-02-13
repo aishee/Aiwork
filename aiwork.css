@@ -11,7 +11,7 @@
     .aicontainer {
         padding: 2%;
         width: 95%;
-    }
+    };
 }
 /* Body */
 
@@ -35,59 +35,77 @@ body {
     word-wrap: break-word;
     clear: both;
 }
+
 .aicol-10 {
     width: 10%;
 }
+
 .aicol-15 {
     width: 15%;
 }
+
 .aicol-20 {
     width: 20%;
 }
+
 .aicol-25 {
     width: 25%;
 }
+
 .aicol-30 {
     width: 30%;
 }
+
 .aicol-33 {
     width: 33.33%;
 }
+
 .aicol-40 {
     width: 40%;
 }
+
 .aicol-50 {
     width: 50%;
 }
+
 .aicol-60 {
     width: 60%;
 }
+
 .aicol-66 {
     width: 66.66%;
 }
+
 .aicol-70 {
     width: 70%;
 }
+
 .aicol-75 {
     width: 75%;
 }
+
 .aicol-80 {
     width: 80%;
 }
+
 .aicol-85 {
     width: 85%;
 }
+
 .aicol-90 {
     width: 90%;
 }
+
 .aicol-100 {
     width: 99.5%;
 }
+
 .airow:after {
     content: "";
     display: table;
     clear: both;
 }
+
 [class*='aicol-'] {
     float: left;
 }
@@ -99,10 +117,12 @@ a:visited {
     text-decoration: none;
     outline: 0;
 }
+
 a:hover,
 a:focus {
     color: #000;
 }
+
 p a,
 p a:visited {
     line-height: inherit;
@@ -112,14 +132,17 @@ p a:visited {
 p {
     margin: 0 0 20px 0;
 }
+
 strong {
     font-weight: bold;
     color: #333;
 }
+
 small {
     font-size: 80%;
     color: #B8B8B8;
 }
+
 hr {
     border: solid #ddd;
     border-width: 1px 0 0;
@@ -127,26 +150,32 @@ hr {
     margin: 10px 0 10px;
     height: 0;
 }
+
 h1 {
     font-size: 35px;
     line-height: 40px;
 }
+
 h2 {
     font-size: 30px;
     line-height: 35px;
 }
+
 h3 {
     font-size: 25px;
     line-height: 30px;
 }
+
 h4 {
     font-size: 20px;
     line-height: 22px;
 }
+
 h5 {
     font-size: 16px;
     line-height: 17px;
 }
+
 h6 {
     font-size: 14px;
     line-height: 15px;
@@ -161,6 +190,7 @@ h6 {
     border-bottom: 5px solid #EEEEEE;
     border-right: 2px solid #EEEEEE;
 }
+
 .aibox {
     border: 2px solid #EEEEEE;
     padding: 20px;
@@ -173,6 +203,7 @@ h6 {
     border-collapse: collapse;
     text-align: left;
 }
+
 .table th {
     background: #F2F1EF;
     font-size: 14px;
@@ -181,11 +212,13 @@ h6 {
     padding: 9px 8px 0px 8px;
     border-bottom: 1px solid #D2D7D3;
 }
+
 .table td {
     color: #22313F;
     padding: 9px 8px 0px 8px;
     border-bottom: 1px solid #D2D7D3;
 }
+
 .table tbody tr:hover td {
     color: #6C7A89;
 }
@@ -195,6 +228,7 @@ fieldset {
     border: 2px solid #EEEEEE;
     padding: 20px;
 }
+
 input[type="text"],
 input[type="password"],
 textarea,
@@ -213,6 +247,7 @@ select {
     -moz-border-radius: 3px;
     border-radius: 3px;
 }
+
 textarea {
     font-size: 1.4em;
 }
@@ -224,10 +259,12 @@ a:visited {
     text-decoration: none;
     outline: 0;
 }
+
 a:hover,
 a:focus {
     color: #000;
 }
+
 p a,
 p a:visited {
     line-height: inherit;
@@ -244,384 +281,494 @@ p a:visited {
     cursor: pointer;
     border: solid 0px transparent;
 }
+
 .btn:hover {
     opacity: 0.85;
+}
+
+.btn:active, .btn-active {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .15) inset, 0 0 6px rgba(0, 0, 0, .2) inset;
+    border-color: #000\8;
+}
+
+.btn[disabled],
+.btn-disabled,
+.btn-disabled:hover,
+.btn-disabled:focus,
+.btn-disabled:active {
+    border: 0.1px;
+    background-image: none,
+   filter: progid: DXImageTransform.Microsoft.gradient(enabled=false);
+    filter: alpha(opacity=43);
+    -khml-opacity: .4;
+    -moz-opacity: .4;
+    opacity: .4;
+    cursor: not-allowed;
+    box-shadow: none;
 }
 /* ---- START TEXT COLORS --- */
 /* Red Color */
 
 .aitx-ap-at-red {
-    color: #EC403A
+    color: #EC403A;
 }
+
 .aitx-at-red {
-    color: #E2312B
+    color: #E2312B;
 }
+
 .aitx-red {
-    color: #D91E18
+    color: #D91E18;
 }
+
 .aitx-ak-red {
-    color: #CC1D17
+    color: #CC1D17;
 }
+
 .aitx-ap-ak-red {
-    color: #BF1B16
+    color: #BF1B16;
 }
 /*Blue*/
 
 .aitx-ap-at-blue {
-    color: #5F9DEC
+    color: #5F9DEC;
 }
+
 .aitx-at-blue {
-    color: #5191E2
+    color: #5191E2;
 }
+
 .aitx-blue {
-    color: #4183D7
+    color: #4183D7;
 }
+
 .aitx-ak-blue {
-    color: #3577CB
+    color: #3577CB;
 }
+
 .aitx-ap-ak-blue {
-    color: #296ABC
+    color: #296ABC;
 }
 /*Brown*/
 
 .aitx-ap-at-brown {
-    color: #825550
+    color: #825550;
 }
+
 .aitx-at-brown {
-    color: #81463F
+    color: #81463F;
 }
+
 .aitx-brown {
-    color: #803F37
+    color: #803F37;
 }
+
 .aitx-ak-brown {
-    color: #6E251C
+    color: #6E251C;
 }
+
 .aitx-ap-ak-brown {
-    color: #59221B
+    color: #59221B;
 }
 /*Pink*/
 
 .aitx-ap-at-pink {
-    color: #F8557E
+    color: #F8557E;
 }
+
 .aitx-at-pink {
-    color: #F73768
+    color: #F73768;
 }
+
 .aitx-pink {
-    color: #F62459
+    color: #F62459;
 }
+
 .aitx-ak-pink {
-    color: #EA184D
+    color: #EA184D;
 }
+
 .aitx-ap-ak-pink {
-    color: #E10B41
+    color: #E10B41;
 }
 /*Orange*/
 
 .aitx-ap-at-orange {
-    color: #F99829
+    color: #F99829;
 }
+
 .aitx-at-orange {
-    color: #ED8916
+    color: #ED8916;
 }
+
 .aitx-orange {
-    color: #E87E04
+    color: #E87E04;
 }
+
 .aitx-ak-orange {
-    color: #DB7703
+    color: #DB7703;
 }
+
 .aitx-ap-ak-orange {
-    color: #D27102
+    color: #D27102;
 }
 /*Yellow*/
 
 .aitx-ap-at-yellow {
-    color: #FBCC5F
+    color: #FBCC5F;
 }
+
 .aitx-at-yellow {
-    color: #FAC54D
+    color: #FAC54D;
 }
+
 .aitx-yellow {
-    color: #F9BF3B
+    color: #F9BF3B;
 }
+
 .aitx-ak-yellow {
-    color: #FABA27
+    color: #FABA27;
 }
+
 .aitx-ap-ak-yellow {
-    color: #F5B115
+    color: #F5B115;
 }
 /*Violet*/
 
 .aitx-ap-at-violet {
-    color: #9663AB
+    color: #9663AB;
 }
+
 .aitx-at-violet {
-    color: #9254AC
+    color: #9254AC;
 }
+
 .aitx-violet {
-    color: #8E44AD
+    color: #8E44AD;
 }
+
 .aitx-ak-violet {
-    color: #8237A1
+    color: #8237A1;
 }
+
 .aitx-ap-ak-violet {
-    color: #71298F
+    color: #71298F;
 }
 /*Ash*/
 
 .aitx-ap-at-ash {
-    color: #9AA3AC
+    color: #9AA3AC;
 }
+
 .aitx-at-ash {
-    color: #828D99
+    color: #828D99;
 }
+
 .aitx-ash {
-    color: #6C7A89
+    color: #6C7A89;
 }
+
 .aitx-ak-ash {
-    color: #616D7A
+    color: #616D7A;
 }
+
 .aitx-ap-ak-ash {
-    color: #55606C
+    color: #55606C;
 }
 /*Black*/
 
 .aitx-ap-at-black {
-    color: #374858
+    color: #374858;
 }
+
 .aitx-at-black {
-    color: #2E3E4E
+    color: #2E3E4E;
 }
+
 .aitx-black {
-    color: #22313F
+    color: #22313F;
 }
+
 .aitx-ak-black {
-    color: #182530
+    color: #182530;
 }
+
 .aitx-ap-ak-black {
-    color: #0D151C
+    color: #0D151C;
 }
 /*White*/
 
 .aitx-ap-at-white {
-    color: #FEFEFE
+    color: #FEFEFE;
 }
+
 .aitx-at-white {
-    color: #F8F8F8
+    color: #F8F8F8;
 }
+
 .aitx-white {
-    color: #f0f0f0
+    color: #f0f0f0;
 }
+
 .aitx-ak-white {
-    color: #EAEAEA
+    color: #EAEAEA;
 }
+
 .aitx-ap-ak-white {
-    color: #E0E0E0
+    color: #E0E0E0;
 }
 /*Green*/
 
 .aitx-ap-at-green {
-    color: #3CBE72
+    color: #3CBE72;
 }
+
 .aitx-at-green {
-    color: #30B065
+    color: #30B065;
 }
+
 .aitx-green {
-    color: #26A65B
+    color: #26A65B;
 }
+
 .aitx-ak-green {
-    color: #1C974F
+    color: #1C974F;
 }
+
 .aitx-ap-ak-green {
-    color: #148945
+    color: #148945;
 }
 /* ---- END TEXT COLORS ------- */
 /* ---- START BG COLORS --- */
 /* Red */
 
 .aibg-ap-at-red {
-    background: #EC403A
+    background: #EC403A;
 }
+
 .aibg-at-red {
-    background: #E2312B
+    background: #E2312B;
 }
+
 .aibg-red {
-    background: #D91E18
+    background: #D91E18;
 }
+
 .aibg-ak-red {
-    background: #CC1D17
+    background: #CC1D17;
 }
+
 .aibg-ap-ak-red {
-    background: #BF1B16
+    background: #BF1B16;
 }
 /*Blue*/
 
 .aibg-ap-at-blue {
-    background: #5F9DEC
+    background: #5F9DEC;
 }
+
 .aibg-at-blue {
-    background: #5191E2
+    background: #5191E2;
 }
+
 .aibg-blue {
-    background: #4183D7
+    background: #4183D7;
 }
+
 .aibg-ak-blue {
-    background: #3577CB
+    background: #3577CB;
 }
+
 .aibg-ap-ak-blue {
-    background: #296ABC
+    background: #296ABC;
 }
 /*Green*/
 
 .aibg-ap-at-green {
-    background: #3CBE72
+    background: #3CBE72;
 }
+
 .aibg-at-green {
-    background: #30B065
+    background: #30B065;
 }
+
 .aibg-green {
-    background: #26A65B
+    background: #26A65B;
 }
+
 .aibg-ak-green {
-    background: #1C974F
+    background: #1C974F;
 }
+
 .aibg-ap-ak-green {
-    background: #148945
+    background: #148945;
 }
 /*Orange*/
 
 .aibg-ap-at-orange {
-    background: #F99829
+    background: #F99829;
 }
+
 .aibg-at-orange {
-    background: #ED8916
+    background: #ED8916;
 }
+
 .aibg-orange {
-    background: #E87E04
+    background: #E87E04;
 }
+
 .aibg-ak-orange {
-    background: #DB7703
+    background: #DB7703;
 }
+
 .aibg-ap-ak-orange {
-    background: #D27102
+    background: #D27102;
 }
 /*Brown*/
 
 .aibg-ap-at-brown {
-    background: #825550
+    background: #825550;
 }
+
 .aibg-at-brown {
-    background: #81463F
+    background: #81463F;
 }
+
 .aibg-brown {
-    background: #803F37
+    background: #803F37;
 }
+
 .aibg-ak-brown {
-    background: #6E251C
+    background: #6E251C;
 }
+
 .aibg-ap-ak-brown {
-    background: #59221B
+    background: #59221B;
 }
 /*Pink*/
 
 .aibg-ap-at-pink {
-    background: #F8557E
+    background: #F8557E;
 }
+
 .aibg-at-pink {
-    background: #F73768
+    background: #F73768;
 }
+
 .aibg-pink {
-    background: #F62459
+    background: #F62459;
 }
+
 .aibg-ak-pink {
-    background: #EA184D
+    background: #EA184D;
 }
+
 .aibg-ap-ak-pink {
-    background: #E10B41
+    background: #E10B41;
 }
 /*Yellow*/
 
 .aibg-ap-at-yellow {
-    background: #FBCC5F
+    background: #FBCC5F;
 }
+
 .aibg-at-yellow {
-    background: #FAC54D
+    background: #FAC54D;
 }
+
 .aibg-yellow {
-    background: #F9BF3B
+    background: #F9BF3B;
 }
+
 .aibg-ak-yellow {
-    background: #FABA27
+    background: #FABA27;
 }
+
 .aibg-ap-ak-yellow {
-    background: #F5B115
+    background: #F5B115;
 }
 /*Ash*/
 
 .aibg-ap-at-ash {
-    background: #9AA3AC
+    background: #9AA3AC;
 }
+
 .aibg-at-ash {
-    background: #828D99
+    background: #828D99;
 }
+
 .aibg-ash {
-    background: #6C7A89
+    background: #6C7A89;
 }
+
 .aibg-ak-ash {
-    background: #616D7A
+    background: #616D7A;
 }
+
 .aibg-ap-ak-ash {
-    background: #55606C
+    background: #55606C;
 }
 /*Black*/
 
 .aibg-ap-at-black {
-    background: #374858
+    background: #374858;
 }
+
 .aibg-at-black {
-    background: #2E3E4E
+    background: #2E3E4E;
 }
+
 .aibg-black {
-    background: #22313F
+    background: #22313F;
 }
+
 .aibg-ak-black {
-    background: #182530
+    background: #182530;
 }
+
 .aibg-ap-ak-black {
-    background: #0D151C
+    background: #0D151C;
 }
 /*White*/
 
 .aibg-ap-at-white {
-    background: #FEFEFE
+    background: #FEFEFE;
 }
+
 .aibg-at-white {
-    background: #F8F8F8
+    background: #F8F8F8;
 }
+
 .aibg-white {
-    background: #f0f0f0
+    background: #f0f0f0;
 }
+
 .aibg-ak-white {
-    background: #EAEAEA
+    background: #EAEAEA;
 }
+
 .aibg-ap-ak-white {
-    background: #E0E0E0
+    background: #E0E0E0;
 }
 /*Violet*/
 
 .aibg-ap-at-violet {
-    background: #9663AB
+    background: #9663AB;
 }
+
 .aibg-at-violet {
-    background: #9254AC
+    background: #9254AC;
 }
+
 .aibg-violet {
-    background: #8E44AD
+    background: #8E44AD;
 }
+
 .aibg-ak-violet {
-    background: #8237A1
+    background: #8237A1;
 }
+
 .aibg-ap-ak-violet {
-    background: #71298F
+    background: #71298F;
 }
 /* ---- END BG COLORS ------- */
